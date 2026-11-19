@@ -1,0 +1,32 @@
+DECORART - PACOTE DE LOGOS E ÍCONES (fundo transparente)
+
+img/
+  logo-completo.png          logo com "Móveis Sob Medida" (fundo claro)
+  logo-sem-slogan.png        logo sem o slogan (fundo claro)
+  logo-fundo-escuro.png      "art" e slogan em branco (use em fundo escuro)
+  *-400w.png                 versões leves, 400px de largura (cabeçalho do site)
+  icone-d-site.png           "D" grande para usar no site
+  icone-d-site-quadrado-512.png  o mesmo "D" em canvas quadrado 512x512
+
+favicon/
+  favicon.ico                16/32/48 px (a partir do "D" pequeno)
+  favicon-16x16.png, favicon-32x32.png, favicon-48x48.png
+  apple-touch-icon.png       180x180, fundo branco (iOS não aceita transparência)
+  icon-192.png, icon-512.png ícones Android / PWA
+  site.webmanifest
+
+social/
+  og-image.png               1200x630 para compartilhar em WhatsApp/Facebook/LinkedIn
+
+COLE NO <head> DO SEU HTML (ajuste o caminho se as pastas não ficarem na raiz):
+
+<link rel="icon" href="/favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<meta name="theme-color" content="#0080FB">
+<meta property="og:image" content="https://SEUSITE.com/social/og-image.png">
+
+LOGO NO CABEÇALHO:
+<img src="img/logo-completo-400w.png" alt="Decorart - Móveis Sob Medida" height="50">
